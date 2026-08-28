@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Specific Title -->
+  <title>Portfolio Details - Employee Management System</title>
+  <!-- Specific Description -->
+  <meta content="Details of the Employee Management System project, a web application built by Deval Piprotar using Python, Django, and SQL." name="description">
+  <!-- Specific Keywords -->
+  <meta content="Deval Piprotar, Portfolio, Project Details, Employee Management System, Python, Django, SQL, Web Application" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <!-- Keep branding consistent -->
+    <div class="profile-img">
+      <img src="img/Deval.jpg" alt="Deval Piprotar profile picture" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Deval Piprotar</h1>
+    </a>
+
+    <div class="social-links text-center">
+       <a href="https://github.com/Devalkarena" class="github" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+       <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> <!-- Fix or remove Skype link -->
+       <a href="https://www.linkedin.com/in/deval-karena-36b931218" class="linkedin" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <!-- Simplified Navigation for Details Page -->
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-arrow-left-circle navicon"></i> Back to Home</a></li>
+        <!-- Optionally add a link back to the portfolio section if desired -->
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Back to Portfolio</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <!-- Use Project Name as H1 -->
+        <h1 class="mb-2 mb-lg-0">Employee Management System</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li> <!-- Keep breadcrumb generic or use project name -->
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <!-- Added Descriptive Alt Text -->
+                <div class="swiper-slide">
+                  <img src="img/portfolio/homepage.png" alt="Employee Management System - Home Page">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/portfolio/register.png" alt="Employee Management System - Registration Page">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/portfolio/login.png" alt="Employee Management System - Login Page">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/portfolio/employee-dashboard.png" alt="Employee Management System - Employee Dashboard">
+                </div>
+
+                 <div class="swiper-slide">
+                  <img src="img/portfolio/employee-profile.png" alt="Employee Management System - Employee Profile View">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/portfolio/admin-dashboard.png" alt="Employee Management System - Admin Dashboard">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/portfolio/departments-view.png" alt="Employee Management System - Departments View (Admin)">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/portfolio/employees-view.png" alt="Employee Management System - Employees List View (Admin)">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="img/portfolio/paygrades-view.png" alt="Employee Management System - Paygrades View (Admin)">
+                </div>
+
+                 <div class="swiper-slide">
+                  <img src="img/portfolio/roles-view.png" alt="Employee Management System - Roles View (Admin)">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul>
+                <!-- More Specific Category -->
+                <li><strong>Category</strong>: Web Application</li>
+                <!-- Added target and rel for security/usability -->
+                <li><strong>Project URL</strong>: <a href="https://github.com/Devalkarena/Employee_Management_System" target="_blank" rel="noopener noreferrer">View on GitHub</a></li>
+                 <!-- Optionally add Tech Stack -->
+                 <li><strong>Technology</strong>: Python, Django, HTML, CSS, JavaScript, SQL</li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Employee Management System Description</h2> <!-- Keep H2 consistent -->
+              <p>
+                The "Employee Management System" project aims to create a software application that digitizes and organizes all employee-related information within a company.
+                This includes personal details, employment history, performance evaluations, time tracking, leave management, payroll data, and other relevant data.
+                By automating routine tasks and providing easy access to essential employee information, the system enhances HR processes, improves decision-making,
+                and ensures efficient workforce management.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <!-- Update Sitename for consistency -->
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Deval Piprotar</strong> <span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="credits">
+        Designed & Build by Deval Piprotar
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- validate.js is likely not needed on this page but included for template consistency -->
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/typed.js/typed.umd.js"></script>
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
