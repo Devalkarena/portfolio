@@ -4,7 +4,7 @@
 
 ![Portfolio](img/portfolio-preview.png)
 
-🔗 **[Visit My Portfolio] https://devalkarena.github.io/portfolio/**
+🔗 **[Visit My Portfolio] https://devalkarena.github.io/portfolio/ **
 
 ---
 
